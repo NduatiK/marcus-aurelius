@@ -451,6 +451,8 @@ section1 model =
                         |> html
                         |> el
                             [ centerX
+                            , class "pulsate"
+                                |> htmlAttribute
                             , Font.color
                                 (whiteWithA
                                     ((model.percent / 0.3)
