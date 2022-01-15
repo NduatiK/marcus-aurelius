@@ -343,7 +343,7 @@ view model =
                 _ ->
                     False
     in
-    { title = "Homepage"
+    { title = "Marcus Aurelius"
     , body =
         List.singleton <|
             Html.div
